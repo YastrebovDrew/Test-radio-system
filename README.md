@@ -2,7 +2,7 @@
 
 Выводим строку, сохраняем в файл и сразу выводим содержимое
 
-''' echo "Hello, DevOps!" | tee ~/hello.txt && cat ~/hello.txt
+``` echo "Hello, DevOps!" | tee ~/hello.txt && cat ~/hello.txt ```
 
 
 
@@ -10,7 +10,7 @@
 
 Ищем слово 'error' без учёта регистра и выводим первые 5 результатов
 
-''' grep -i 'error' /var/log/syslog | head -n 5
+``` grep -i 'error' /var/log/syslog | head -n 5 ```
 
 
 # Файлы-решения заданий со скриптами и докером лежат в репозитории :)
